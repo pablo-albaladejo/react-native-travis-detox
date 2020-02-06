@@ -16,4 +16,9 @@ describe('Example', () => {
     await element(by.id('world_button')).tap();
     await expect(element(by.text('World!!!'))).toBeVisible();
   });
+
+  it('should show goodbay screen after tap', async () => {
+    await element(by.id('goodbye_button')).tap();
+    await expect(element(by.text('Goodbye, World!!!'))).toBeVisible();
+  });
 });
