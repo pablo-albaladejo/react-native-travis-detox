@@ -45,7 +45,8 @@
           "type": "iPhone 11 Pro"
         }
       }
-    }
+    },
+    "test-runner": "jest"
   },
   "test-runner": "jest"
 }
