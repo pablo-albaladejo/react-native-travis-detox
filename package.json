@@ -47,6 +47,5 @@
       }
     },
     "test-runner": "jest"
-  },
-  "test-runner": "jest"
+  }
 }
