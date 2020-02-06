@@ -38,6 +38,15 @@
         }
       }
     },
+    "ios.sim.release": {
+      "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/ReactNativeTravisDetox.app",
+      "build": "xcodebuild -workspace ios/ReactNativeTravisDetox.xcworkspace -scheme ReactNativeTravisDetox -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build",
+      "type": "ios.simulator",
+      "device": {
+        "type": "iPhone 11 Pro"
+      }
+    }
+  },
     "test-runner": "jest"
   }
 }
